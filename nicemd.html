@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTJARNOBEERTEN Database Operations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #27ae60;
+        }
+        pre {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-left: 3px solid #3498db;
+            color: #333;
+            page-break-inside: avoid;
+            font-family: monospace;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 1.6em;
+            max-width: 100%;
+            overflow: auto;
+            padding: 1em 1.5em;
+            display: block;
+            word-wrap: break-word;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>PORTJARNOBEERTEN Database Operations <span class="emoji">🚢</span></h1>
+
+    <h2>Connecting to MariaDB <span class="emoji">🔌</span></h2>
+    <pre>mysql -u root -p</pre>
+
+    <h2>Database and User Setup <span class="emoji">🛠️</span></h2>
+    <pre>
+-- Create and use database
+CREATE DATABASE IF NOT EXISTS PORTJARNOBEERTEN;
+USE PORTJARNOBEERTEN;
+
+-- Create read-only user
+CREATE USER 'port_lezer'@'localhost' IDENTIFIED BY 'veilig_wachtwoord';
+GRANT SELECT ON PORTJARNOBEERTEN.* TO 'port_lezer'@'localhost';
+
+-- Create admin user
+CREATE USER 'port_beheerder'@'localhost' IDENTIFIED BY 'ander_veilig_wachtwoord';
+GRANT ALL PRIVILEGES ON PORTJARNOBEERTEN.* TO 'port_beheerder'@'localhost';
+
+-- Apply changes
+FLUSH PRIVILEGES;
+    </pre>
+
+    <h2>Table Creation and Data Insertion <span class="emoji">📊</span></h2>
+    <pre>
+-- Create Schepen (Ships) table
+CREATE TABLE Schepen (
+  ID INT AUTO_INCREMENT PRIMARY KEY,
+  Naam VARCHAR(100),
+  Type VARCHAR(50),
+  Capaciteit INT
+);
+
+-- Insert sample data into Schepen
+INSERT INTO Schepen (Naam, Type, Capaciteit) VALUES 
+('Zeemeeuw', 'Vrachtschip', 5000),
+('Windkracht', 'Tanker', 10000),
+('Havengolf', 'Containerschip', 15000);
+
+-- Create Ladingen (Cargo) table
+CREATE TABLE Ladingen (
+  ID INT AUTO_INCREMENT PRIMARY KEY,
+  SchipID INT,
+  Inhoud VARCHAR(100),
+  Gewicht INT,
+  FOREIGN KEY (SchipID) REFERENCES Schepen(ID)
+);
+
+-- Insert sample data into Ladingen
+INSERT INTO Ladingen (SchipID, Inhoud, Gewicht) VALUES 
+(1, 'Graan', 3000),
+(2, 'Olie', 8000),
+(3, 'Containers', 12000);
+    </pre>
+
+    <h2>Query Examples <span class="emoji">🔍</span></h2>
+    <h3>Basic Queries</h3>
+    <pre>
+-- Show all ships
+SELECT * FROM Schepen;
+
+-- Show names of all cargo ships
+SELECT Naam FROM Schepen WHERE Type = 'Vrachtschip';
+
+-- Show top 3 ships by capacity
+SELECT Naam, Capaciteit FROM Schepen ORDER BY Capaciteit DESC LIMIT 3;
+    </pre>
+
+    <h3>Advanced Queries</h3>
+    <pre>
+-- Show ships with their cargo
+SELECT s.Naam AS Schip, l.Inhoud AS Lading, l.Gewicht
+FROM Schepen s
+JOIN Ladingen l ON s.ID = l.SchipID;
+
+-- Calculate average cargo weight per ship type
+SELECT s.Type, AVG(l.Gewicht) AS GemiddeldGewicht
+FROM Schepen s
+JOIN Ladingen l ON s.ID = l.SchipID
+GROUP BY s.Type;
+
+-- Find ships without cargo
+SELECT s.Naam AS SchipZonderLading
+FROM Schepen s
+LEFT JOIN Ladingen l ON s.ID = l.SchipID
+WHERE l.ID IS NULL;
+    </pre>
+
+    <h2>Data Modification Examples <span class="emoji">✏️</span></h2>
+    <pre>
+-- Add a new ship
+INSERT INTO Schepen (Naam, Type, Capaciteit)
+VALUES ('Noordster', 'Sleepboot', 2000);
+
+-- Update capacity of an existing ship
+UPDATE Schepen
+SET Capaciteit = Capaciteit + 1000
+WHERE Naam = 'Zeemeeuw';
+
+-- Delete a ship
+DELETE FROM Schepen
+WHERE Naam = 'Noordster';
+
+-- Update ship type
+UPDATE Schepen
+SET Type = 'Bulkcarrier'
+WHERE Naam = 'Windkracht';
+    </pre>
+
+    <h2>Exit MariaDB <span class="emoji">👋</span></h2>
+    <pre>exit</pre>
+
+    <p>This file contains all necessary commands to set up the PORTJARNOBEERTEN database, create tables, insert data, perform various queries, and modify data. Execute these commands in order in your MariaDB client to set up and interact with the database.</p>
+</body>
+</html>
