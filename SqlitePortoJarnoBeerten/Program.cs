@@ -9,6 +9,7 @@ namespace SqlitePortoJarnoBeerten
 {
     internal static class Program
     {
+        //jarno beerten
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
