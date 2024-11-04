@@ -7,6 +7,7 @@ namespace ConsoleSQLiteManager
 {
     class Program
     {
+        //jarno beerten 
         private static SQLiteConnection connection;
         private static string currentTable;
 
