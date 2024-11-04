@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}|SqliteCmdPortoJarnoBeerten\\SqliteCmdPortoJarnoBeerten.csproj|c:\\users\\jpjm-\\source\\repos\\sqliteportojarnobeerten\\sqlitecmdportojarnobeerten\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}|SqliteCmdPortoJarnoBeerten\\SqliteCmdPortoJarnoBeerten.csproj|solutionrelative:sqlitecmdportojarnobeerten\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|c:\\users\\jpjm-\\source\\repos\\sqliteportojarnobeerten\\sqliteportojarnobeerten\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|solutionrelative:sqliteportojarnobeerten\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|c:\\users\\jpjm-\\source\\repos\\sqliteportojarnobeerten\\sqliteportojarnobeerten\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|solutionrelative:sqliteportojarnobeerten\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|c:\\users\\jpjm-\\source\\repos\\sqliteportojarnobeerten\\sqliteportojarnobeerten\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|solutionrelative:sqliteportojarnobeerten\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|c:\\users\\jpjm-\\source\\repos\\sqliteportojarnobeerten\\sqliteportojarnobeerten\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|solutionrelative:sqliteportojarnobeerten\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|c:\\users\\jpjm-\\source\\repos\\sqliteportojarnobeerten\\sqliteportojarnobeerten\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D2F32F45-6A67-47D7-834C-97183AFBFB6E}|SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten.csproj|solutionrelative:sqliteportojarnobeerten\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqliteCmdPortoJarnoBeerten\\Program.cs",
+              "RelativeDocumentMoniker": "SqliteCmdPortoJarnoBeerten\\Program.cs",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqliteCmdPortoJarnoBeerten\\Program.cs",
+              "RelativeToolTip": "SqliteCmdPortoJarnoBeerten\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAEwC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:13:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Form1.cs",
+              "RelativeDocumentMoniker": "SqlitePortoJarnoBeerten\\Form1.cs",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Form1.cs",
+              "RelativeToolTip": "SqlitePortoJarnoBeerten\\Form1.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAkwKoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:16:01.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Form1.cs",
+              "RelativeDocumentMoniker": "SqlitePortoJarnoBeerten\\Form1.cs",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Form1.cs [Design]",
+              "RelativeToolTip": "SqlitePortoJarnoBeerten\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:12:55.77Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "SqlitePortoJarnoBeerten\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Form1.Designer.cs",
+              "RelativeToolTip": "SqlitePortoJarnoBeerten\\Form1.Designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:15:49.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Program.cs",
+              "RelativeDocumentMoniker": "SqlitePortoJarnoBeerten\\Program.cs",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\Program.cs",
+              "RelativeToolTip": "SqlitePortoJarnoBeerten\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:19:36.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\packages.config",
+              "RelativeDocumentMoniker": "SqlitePortoJarnoBeerten\\packages.config",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\SqlitePortoJarnoBeerten\\SqlitePortoJarnoBeerten\\packages.config",
+              "RelativeToolTip": "SqlitePortoJarnoBeerten\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-04T06:19:44.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

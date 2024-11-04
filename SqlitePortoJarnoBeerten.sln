@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlitePortoJarnoBeerten", "SqlitePortoJarnoBeerten\SqlitePortoJarnoBeerten.csproj", "{D2F32F45-6A67-47D7-834C-97183AFBFB6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteCmdPortoJarnoBeerten", "SqliteCmdPortoJarnoBeerten\SqliteCmdPortoJarnoBeerten.csproj", "{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F32F45-6A67-47D7-834C-97183AFBFB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F32F45-6A67-47D7-834C-97183AFBFB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F32F45-6A67-47D7-834C-97183AFBFB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F32F45-6A67-47D7-834C-97183AFBFB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743CAE2B-28DF-4CFA-B9F6-0E71C82982AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D33BE7D4-F884-4E67-9D1D-D1A42CA2319A}
+	EndGlobalSection
+EndGlobal
